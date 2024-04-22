@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    background-color: #ffffff;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center; 
+}
+
+.Navbar a{
+    margin-right: 20px;
+    color: rgb(36, 35, 35);
+    font-size: 15px;
+    text-decoration: inherit;
+}
+
+.Navbar a:hover{
+    text-decoration: underline;
+}
+
+.Right{
+    display: flex;
+    align-items: center;
+    min-width: 13vh;
+    justify-content: space-between;
+}
+
+.Right , .apps{
+    margin-right: 10px;
+    color: rgb(24, 23, 23);
+}
+
+.Right , .profile{
+    color: rgb(10, 10, 10);
+}
+.Right , .apps:hover{
+    cursor: pointer;
+}
+
+.main{
+    flex: 1;
+    display: flex;
+    margin-top: 7%;
+    flex-direction: column;
+}
+
+.main img{
+    object-fit: contain;
+    height: 100px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 30px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+
+}
+
+.input input{ 
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: rgb(4, 4, 4);
+}
+
+.input .material-symbols-outlined{
+    color: grey;
+    padding-left: 3px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button{
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f7fafb;
+    color: rgb(26, 24, 24);
+    border: none;
+    border-radius: 2%;
+    outline: none;
+    cursor: pointer;
+}
+
+.Google-offered{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(46, 43, 43);
+}
+
+.Google-offered a{
+    color: #7AA8CB;
+}
+
+
+
+.Buttomnav{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    position: absolute;
+    bottom: 0%;
+    align-items: center; 
+    margin-top: 10%;
+}
+
+.Buttomnav a{
+    margin-right: 20px;
+    color: rgb(49, 46, 46);
+    font-size: 15px;
+    text-decoration: inherit;
+
+}
+
+.Buttomnav a:hover{
+    text-decoration: underline;
+}
+
+.Buttomnav img{
+    width: 10px;
+}
+
+.center{
+    display: flex;
+    gap: 1.1em;
+    justify-content: center;
+    align-items: center;
+}
+
